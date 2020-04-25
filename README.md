@@ -1,1 +1,1 @@
-# inuma-manabu.josai.math.kyoshoku
+# inuma-manabu.josai.math.kyoshoku.io
