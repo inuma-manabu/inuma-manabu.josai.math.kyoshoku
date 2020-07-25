@@ -3,25 +3,29 @@
     margin-right : 10px;
 }
 /*フッタを最下部に固定して表示*/
-html, body {
-  height: 100%;
-  margin: 0;
-}
-.wrapper {
-  min-height: 100%;
- 
-  /* フッタの高さと等しいネガティブマージン */
-  /* また最後の子要素の潜在的なマージンとしても機能 */
-  margin-bottom: -50px;
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
 }
 
-.content {
-  min-height: calc(100vh - 70px);
-}
-.footer {
-  height: 50px;
+header {
+    background: #333333;
+    color: #ffffff;
+    height: 40px;
 }
 
+main {
+    background: #ffffff;
+    flex: 1;
+}
+
+footer {
+    background: #333333;
+    color: #ffffff;
+    height: 40px;
+}
 /* ボタン全体 */
 .flowbtn10{
 display:inline-block;	
