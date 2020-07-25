@@ -43,7 +43,8 @@ li {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url(https://inuma-manabu.github.io/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg) top center / cover no-repeat;
+   background-color: #41593a;
+      /*url(https://inuma-manabu.github.io/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg)top center / cover no-repeat;*/
 }
 h2 {
    margin: 0;
