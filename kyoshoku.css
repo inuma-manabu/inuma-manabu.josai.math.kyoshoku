@@ -1,10 +1,6 @@
-@charset "utf-8";
-* {
-   box-sizing: border-box;
-}
 body {
-   margin: 0;
-   padding: 0;
+   /*margin: 0;*/
+   /*padding: 0;*/
    /*font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
    background-color: #41593a;
    letter-spacing : 0.2em;
@@ -20,7 +16,7 @@ header {
 }
 a {	
    text-decoration: none;
-   color: #fff;
+   color: #111111;
    font-weight: bold;
 }
 ul {
@@ -30,15 +26,11 @@ ul {
 }
 li {
    margin: 0 0 0 15px;
-   font-size: 14px;
+   /*font-size: 14px;*/
 }
-.main-visual {
-   /*display: flex;*/
-   /*justify-content: center;*/
-   /*align-items: center;*/
-   /*height: 100vh;*/
-   background-color: #41593a;
-      /*url(https://inuma-manabu.github.io/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg)top center / cover no-repeat;*/
+
+address{
+font-stayle: normal;
 }
 
 /* ボタン全体 */
