@@ -1,14 +1,53 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
+   <meta charset="utf-8">
+   <meta name="robots" content="noindex,nofollow">
    <title>城西大学数学科の教職課程</title>
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-　　<link rel="stylesheet" type="text/css" href="kyoshoku.css">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="style.css">
+
+   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+   <script>
+   $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+   });
+   </script>
 </head>
 <body>
-<div class="bg_test">
-<div class="bg_test-text">
-     準備中です
-</div>
-</div>
+   <header>
+      <h1>
+         <a href="/">城西大学数学科の教職課程</a>
+      </h1>
+      <nav class="pc-nav">
+         <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
+         </ul>
+      </nav>
+      <nav class="sp-nav">
+         <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li class="close"><span>閉じる</span></li>
+         </ul>
+      </nav>
+      <div id="hamburger">
+         <span></span>
+      </div>
+   </header>
+   <div class="main-visual">
+      <h2>　履修 <span>　に　</span>　ついて　</h2>
+   </div>
 </body>
 </html>
