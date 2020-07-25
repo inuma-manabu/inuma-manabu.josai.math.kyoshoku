@@ -4,17 +4,20 @@
 }
 
 /*フッタを最下部に固定して表示*/
-body,
-#wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-   }
-header {
-    margin-top: auto;
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
 }
 footer {
     margin-top: auto;
+    color: #99999;
+    background-color: #666666;
 }
 /* ボタン全体 */
 .flowbtn10{
