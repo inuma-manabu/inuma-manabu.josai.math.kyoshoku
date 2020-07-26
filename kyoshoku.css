@@ -28,8 +28,10 @@ div#body{
 
 .foot-wrap .menu-left, .menu-center, .menu-right {
     display: inline-block;
-    width: 20%;
+　　vertical-align: top; 
+    width: 50%;
     margin: 50px auto;
+	
 }
 
 .foot-wrap ul {
