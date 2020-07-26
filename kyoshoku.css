@@ -21,7 +21,7 @@ div#body{
     width:960px;
     margin:auto;
 }
-.foot-wrap .menu-left .menu-right {
+.foot-wrap .menu-left, .menu-right {
     display: inline-block;
     width: 35%;
     margin: 50px auto;
